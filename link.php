@@ -1,5 +1,5 @@
 <?php
-//连接数据库函数cimmit 
+//连接数据库函数
 function alink($host,$user,$password,$db)
 	{
 	$links = mysql_connect($host,$user,$password);//三个参数：数据地址用户名密码
